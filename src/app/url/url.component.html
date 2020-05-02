@@ -1,0 +1,27 @@
+<div class="container">
+    <form [formGroup]="urlForm" (submit)="senData()">
+        <div class="row">
+            <div class="col-lg-10">
+        <label for ="">URL</label>
+        <input type ="text"  formControlName="longurl"class="form-control">
+    </div>
+        </div>
+        <div class="row">
+            <div class = "col-lg-12">
+                <input type="submit" class="btn btn-primary" value="SUBMIT">
+                
+            </div>
+            <div>
+               
+         
+                    {{shorturl}}
+                 
+                   
+                
+                
+            </div>
+            </div>
+            
+    </form>
+
+</div>
